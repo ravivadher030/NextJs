@@ -1,4 +1,3 @@
-'use client';
 import Image from "next/image";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -16,10 +15,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [toggle,setToggle]=useState(false)
-  const toggleNavbr = ()=> {
-    setToggle(!toggle)
-  };
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -42,7 +37,6 @@ export default function RootLayout({
                   data-collapse-toggle="navbar-cta"
                   aria-controls="navbar-cta"
                   aria-expanded="false"
-                  onClick={toggleNavbr}
                 >
                   <span className="sr-only">open menu</span>
                   <HiMiniBars3BottomLeft
@@ -51,9 +45,9 @@ export default function RootLayout({
                   />
                 </button>
                 <div
-                  className={`${
-                    toggle ? "flex" : "hidden"
-                  } items-center md:flex md:order-1 w-full md:w-auto`}
+                  className={`
+                     hidden
+                  items-center md:flex md:order-1 w-full md:w-auto`}
                   id="navbar-cta"
                 >
                   <ul className="flex flex-col w-full space-y-5 md:space-y-0 justify-center p-4 items-center md:flex-row font-medium md:space-x-8">

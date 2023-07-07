@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import { HiMiniBars3BottomLeft } from "react-icons/hi2";
 import { useState } from "react";

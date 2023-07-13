@@ -8,7 +8,7 @@ export default function HeroContent() {
         <div className="w-1 -m-1 h-52 md:h-80 bg-gradient-to-b from-sky-400 to-white dark:to-black" />
       </div>
       <div className="hero_content">
-        <p className="text">Hi, I'm Ravi Vadher</p>
+        <p className="text">Hi, I am Ravi Vadher</p>
         <h1 className="font-bold text-[24px] md:text-[34px] text-sky-400 my-2 uppercase">
           Developer
         </h1>
@@ -16,7 +16,7 @@ export default function HeroContent() {
           Knowledge of programming language and technical terminology.
         </p>
         <span className="text-sky-400">
-          I'm a{" "}
+          I am a{" "}
           <TypewriterComponent
             options={{
               autoStart: true,

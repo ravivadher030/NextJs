@@ -16,6 +16,21 @@
   }
 }
 
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../assets/Signika_Negative/SignikaNegative-Bold.ttf');
+  src: url('../assets/Signika_Negative/SignikaNegative-Light.ttf');
+  src: url('../assets/Signika_Negative/SignikaNegative-Medium.ttf');
+  src: url('../assets/Signika_Negative/SignikaNegative-SemiBold.ttf');
+  src: url('../assets/Signika_Negative/SignikaNegative-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Technical() {
   return (
-    <div>Technical</div>
+    <div>Technical Knowladge</div>
   )
 }

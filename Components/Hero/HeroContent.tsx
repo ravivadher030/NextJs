@@ -2,7 +2,7 @@ import TypewriterComponent from "typewriter-effect";
 
 export default function HeroContent() {
   return (
-    <div className="flex gap-x-3 hero-content order-2 text-[16px] md:text-[20px] self-center ">
+    <div className="flex gap-x-3 hero-content order-2 text-[16px]  md:text-[20px] self-center ">
       <div className="flex flex-col justify-center items-center ">
         <div className="w-5 h-5 rounded-full bg-sky-400" />
         <div className="w-1 -m-1 h-52 md:h-80 bg-gradient-to-b from-sky-400 to-white dark:to-black" />

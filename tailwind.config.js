@@ -26,7 +26,7 @@ module.exports = {
 
       keyframes: {
         wiggle: {
-          "0%": { top:"250px" },
+          "0%": { top:"400px" },
           "100%": { top:"0px" },
         },
         downup: {
